@@ -1,4 +1,4 @@
-let menuIcon = document.querySelector('#menu-icon');
+let menuIcon = document.querySelector ('#menu-icon');
 let navbar = document.querySelector('.navbar');
 let language = 'en';
 
@@ -8,14 +8,14 @@ let texts = {
         scrollSections: 'Scroll Sections',
         stickyNavbar: 'Sticky Navbar',
         revealScroll: 'Scroll Reveal',
-        typedTexts: ['QA Automation', 'Frontend Developer', 'Manual Tester']
+        typedTexts: ['QA Automation', 'Frontend Dev', 'Manual Tester']
     },
     'es': {
         toggleIcon: 'Alternar Icono',
         scrollSections: 'Desplazar Secciones',
         stickyNavbar: 'Navbar Fija',
         revealScroll: 'Mostrar al Desplazar',
-        typedTexts: ['QA Automatización', 'Desarrollador Frontend', 'Probador Manual']
+        typedTexts: ['QA Automatización', 'Desarrollador Front', 'Probador Manual']
     }
     
 };
